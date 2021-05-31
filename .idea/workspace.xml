@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5430166-6f02-4d93-ad1b-db4a5ef48935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,37 +16,37 @@
     <session id="725866329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="27" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="86" />
+          <entry key="java" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="18959" />
+          <entry key="java" value="19730" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="18959" />
+          <entry key="JAVA" value="19730" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -56,23 +54,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java">
+        <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="284">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,6 +127,7 @@
         <option value="$PROJECT_DIR$/src/dsa/stack/LeftNextLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" />
       </list>
     </option>
   </component>
@@ -182,8 +169,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NextSmallestElement">
+  <component name="RunManager" selected="Application.StockSpanProblem">
     <configuration name="KFrequentNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa.heap.KFrequentNumber" />
       <module name="DSA" />
@@ -225,19 +212,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="dsa.heap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.NextLargestElement" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,18 +245,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.stack.StockSpanProblem" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.KFrequentNumber" />
       <item itemvalue="Application.MergeKSortedArray" />
-      <item itemvalue="Application.RightNextLargestElement" />
       <item itemvalue="Application.PreviousLargestElement" />
       <item itemvalue="Application.NextSmallestElement" />
+      <item itemvalue="Application.StockSpanProblem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StockSpanProblem" />
         <item itemvalue="Application.NextSmallestElement" />
         <item itemvalue="Application.PreviousLargestElement" />
-        <item itemvalue="Application.RightNextLargestElement" />
         <item itemvalue="Application.MergeKSortedArray" />
         <item itemvalue="Application.KFrequentNumber" />
       </list>
@@ -305,7 +292,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29685265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30114448" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -507,9 +494,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -517,9 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,9 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,11 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#1555#1556#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,16 +522,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="532">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -567,8 +537,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="570">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
