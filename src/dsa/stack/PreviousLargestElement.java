@@ -10,16 +10,16 @@ Find the previous largest element
 public class PreviousLargestElement {
     public static void previousLargestNumber(int[] arr, int n, List<Integer> list) {
         Stack<Integer> s = new Stack<>();
-        for(int i=0 ; i<n ; i++) {
-            if(s.isEmpty()) {
+        for (int i = 0; i < n; i++) {
+            if (s.isEmpty()) {
                 list.add(-1);
-            } else if(!s.isEmpty() && s.peek() > arr[i]) {
+            } else if (!s.isEmpty() && s.peek() > arr[i]) {
                 list.add(s.peek());
-            } else if(!s.isEmpty() && s.peek() <= arr[i]) {
-                while(!s.isEmpty() && s.peek() <= arr[i]) {
+            } else if (!s.isEmpty() && s.peek() <= arr[i]) {
+                while (!s.isEmpty() && s.peek() <= arr[i]) {
                     s.pop();
                 }
-                if(s.isEmpty()) {
+                if (s.isEmpty()) {
                     list.add(-1);
                 } else {
                     list.add(s.peek());

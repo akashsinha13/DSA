@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5430166-6f02-4d93-ad1b-db4a5ef48935" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/stack/MinStackImplWithExtraSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/dsa/stack/StockSpanProblem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/dsa/stack/StockSpanProblem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/dsa/stack/MaximumAreaHistogram.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/dsa/stack/MaximumAreaHistogram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,37 +23,37 @@
     <session id="725866329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="29" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
-          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.7" value="5" />
           <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="93" />
+          <entry key="java" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="21300" />
+          <entry key="java" value="22709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21300" />
+          <entry key="JAVA" value="22709" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -57,43 +62,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java">
+        <entry file="file://$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="96">
+              <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -154,13 +126,16 @@
         <option value="$PROJECT_DIR$/src/dsa/heap/KClosestNumber.java" />
         <option value="$PROJECT_DIR$/src/dsa/heap/KFrequentNumber.java" />
         <option value="$PROJECT_DIR$/src/dsa/heap/MergeKSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/RightNextLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/LeftNextLargestElement.java" />
-        <option value="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/MinStackWithoutExtraSpace.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/MinStackImplWithExtraSpace.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java" />
+        <option value="$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java" />
       </list>
     </option>
   </component>
@@ -173,6 +148,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -202,7 +178,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -225,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaximumAreaHistogram">
+  <component name="RunManager" selected="Application.RainWaterTrapping">
     <configuration name="MaximumAreaHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa.stack.MaximumAreaHistogram" />
       <module name="DSA" />
@@ -239,8 +214,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.NextLargestElement" />
+    <configuration name="MinStackImplWithExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.stack.MinStackImplWithExtraSpace" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinStackWithoutExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.stack.MinStackWithoutExtraSpace" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -265,21 +253,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PreviousLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.PreviousLargestElement" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StockSpanProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.StockSpanProblem" />
+    <configuration name="RainWaterTrapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.stack.RainWaterTrapping" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -292,19 +267,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.PreviousLargestElement" />
       <item itemvalue="Application.NextSmallestElement" />
-      <item itemvalue="Application.StockSpanProblem" />
       <item itemvalue="Application.MaximumAreaHistogram" />
-      <item itemvalue="Application.NextLargestElement" />
+      <item itemvalue="Application.MinStackImplWithExtraSpace" />
+      <item itemvalue="Application.MinStackWithoutExtraSpace" />
+      <item itemvalue="Application.RainWaterTrapping" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RainWaterTrapping" />
+        <item itemvalue="Application.MinStackWithoutExtraSpace" />
+        <item itemvalue="Application.MinStackImplWithExtraSpace" />
         <item itemvalue="Application.MaximumAreaHistogram" />
         <item itemvalue="Application.NextSmallestElement" />
-        <item itemvalue="Application.NextLargestElement" />
-        <item itemvalue="Application.StockSpanProblem" />
-        <item itemvalue="Application.PreviousLargestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +300,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30543634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30972818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -495,13 +470,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsa/recursion/AllValidParenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="50" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/recursion/OneGreaterThan0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -551,21 +519,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1146">
-          <caret line="84" column="14" lean-forward="true" selection-start-line="84" selection-start-column="14" selection-end-line="84" selection-end-column="14" />
+        <state relative-caret-position="341">
+          <caret line="73" column="31" lean-forward="true" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/MinStackImplWithExtraSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#stockSpanProblem2#0;class#StockSpanProblem#0" />
+            <element signature="e#637#638#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/MinStackWithoutExtraSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding>
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextLargestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        <state relative-caret-position="436">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -574,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/NextSmallestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="414">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -584,15 +572,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/PreviousLargestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="361">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java">
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="72" column="20" selection-start-line="72" selection-start-column="20" selection-end-line="72" selection-end-column="20" />
+        <state relative-caret-position="313">
+          <caret line="83" column="12" lean-forward="true" selection-start-line="83" selection-start-column="12" selection-end-line="83" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#stockSpanProblem2#0;class#StockSpanProblem#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/recursion/AllValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>

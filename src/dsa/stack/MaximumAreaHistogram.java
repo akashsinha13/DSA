@@ -13,19 +13,19 @@ public class MaximumAreaHistogram {
         int pseudoIndex = -1;
         Stack<ArrayContainer> s = new Stack<>();
         int[] arr = new int[histogram.length];
-        for(int i=0 ; i<n ; i++) {
-            if(s.isEmpty()) {
+        for (int i = 0; i < n; i++) {
+            if (s.isEmpty()) {
                 arr[i] = pseudoIndex;
-            } else if(!s.isEmpty() && s.peek().num >= histogram[i]) {
-                while(!s.isEmpty() && s.peek().num >= histogram[i]) {
+            } else if (!s.isEmpty() && s.peek().num >= histogram[i]) {
+                while (!s.isEmpty() && s.peek().num >= histogram[i]) {
                     s.pop();
                 }
-                if(s.isEmpty()) {
+                if (s.isEmpty()) {
                     arr[i] = pseudoIndex;
                 } else {
                     arr[i] = s.peek().index;
                 }
-            } else if(!s.isEmpty() && s.peek().num <= histogram[i]) {
+            } else if (!s.isEmpty() && s.peek().num <= histogram[i]) {
                 arr[i] = s.peek().index;
             }
             s.push(new ArrayContainer(histogram[i], i));
@@ -40,19 +40,19 @@ public class MaximumAreaHistogram {
         Stack<ArrayContainer> s = new Stack<>();
         int pseudoIndex = n;
         int[] arr = new int[histogram.length];
-        for(int i=n-1; i>=0 ; i--) {
-            if(s.isEmpty()) {
+        for (int i = n - 1; i >= 0; i--) {
+            if (s.isEmpty()) {
                 arr[i] = pseudoIndex;
-            } else if(!s.isEmpty() && s.peek().num >= histogram[i]) {
-                while(!s.isEmpty() && s.peek().num >= histogram[i]) {
+            } else if (!s.isEmpty() && s.peek().num >= histogram[i]) {
+                while (!s.isEmpty() && s.peek().num >= histogram[i]) {
                     s.pop();
                 }
-                if(s.isEmpty()) {
+                if (s.isEmpty()) {
                     arr[i] = pseudoIndex;
                 } else {
                     arr[i] = s.peek().index;
                 }
-            } else if(!s.isEmpty() && s.peek().num < histogram[i]) {
+            } else if (!s.isEmpty() && s.peek().num < histogram[i]) {
                 arr[i] = s.peek().index;
             }
 
@@ -67,10 +67,10 @@ public class MaximumAreaHistogram {
         int[] minLeftIndex = minLeftIndex(histogram, histogram.length);
         int[] minRightIndex = minRightIndex(histogram, histogram.length);
 
-        for(int i=0 ; i<histogram.length ; i++)  {
+        for (int i = 0; i < histogram.length; i++) {
             int width = minRightIndex[i] - minLeftIndex[i] - 1;
             int area = width * histogram[i];
-            if(area > maxArea) {
+            if (area > maxArea) {
                 maxArea = area;
             }
         }
@@ -78,7 +78,7 @@ public class MaximumAreaHistogram {
     }
 
     public static void main(String[] args) {
-        int[] histogram = new int[]{6,7,4,1,4,1,6};
+        int[] histogram = new int[]{6, 7, 4, 1, 4, 1, 6};
         System.out.println("Maximum area is " + maxArea(histogram));
     }
 }
