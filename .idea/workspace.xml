@@ -15,37 +15,38 @@
     <session id="725866329">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="32" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="6" />
           <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="104" />
+          <entry key="java" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="104" />
+          <entry key="JAVA" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="30" />
-          <entry key="java" value="22709" />
+          <entry key="java" value="22741" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22709" />
+          <entry key="JAVA" value="22741" />
           <entry key="PLAIN_TEXT" value="30" />
         </counts>
       </usages-collector>
@@ -53,33 +54,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
+        <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="418">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/Vertex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#stockSpanProblem2#0;class#StockSpanProblem#0" />
+                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#731#732#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/BFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dsa/graph/dfs/DFS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,13 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/dsa/dp/Knapsack_Recursive.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/Knapsack_Memoization.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/Knapsack_TopDown.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/SubsetSum.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/EqualSumPartition.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/CountOfSubsetSum.java" />
-        <option value="$PROJECT_DIR$/src/dsa/dp/MinimumSubsetSumDifference.java" />
         <option value="$PROJECT_DIR$/src/dsa/dp/TargetSum.java" />
         <option value="$PROJECT_DIR$/src/dsa/dp/UnboundedKnapsack.java" />
         <option value="$PROJECT_DIR$/src/dsa/dp/RodCutting.java" />
@@ -150,10 +157,17 @@
         <option value="$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java" />
         <option value="$PROJECT_DIR$/src/dsa/stack/RainWaterTrapping.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/bfs/Test.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/dijkstra/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/bfs/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/dfs/DFS.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/dfs/Vertex.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/dfs/Test.java" />
+        <option value="$PROJECT_DIR$/src/dsa/graph/bfs/BFS.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -187,7 +201,23 @@
               <item name="DSA" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dsa" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="bfs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DSA" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DSA" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dsa" type="462c0819:PsiDirectoryNode" />
+              <item name="graph" type="462c0819:PsiDirectoryNode" />
+              <item name="dfs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -214,20 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RainWaterTrapping">
-    <configuration name="MaximumAreaHistogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.MaximumAreaHistogram" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Test (1)">
     <configuration name="MinStackImplWithExtraSpace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa.stack.MinStackImplWithExtraSpace" />
       <module name="DSA" />
@@ -254,19 +271,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextSmallestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dsa.stack.NextSmallestElement" />
-      <module name="DSA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dsa.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RainWaterTrapping" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dsa.stack.RainWaterTrapping" />
       <module name="DSA" />
@@ -280,20 +284,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.graph.bfs.Test" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.graph.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dsa.graph.dfs.Test" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dsa.graph.dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.NextSmallestElement" />
-      <item itemvalue="Application.MaximumAreaHistogram" />
       <item itemvalue="Application.MinStackImplWithExtraSpace" />
       <item itemvalue="Application.MinStackWithoutExtraSpace" />
       <item itemvalue="Application.RainWaterTrapping" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.RainWaterTrapping" />
         <item itemvalue="Application.MinStackWithoutExtraSpace" />
         <item itemvalue="Application.MinStackImplWithExtraSpace" />
-        <item itemvalue="Application.MaximumAreaHistogram" />
-        <item itemvalue="Application.NextSmallestElement" />
       </list>
     </recent_temporary>
   </component>
@@ -311,17 +341,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31402004" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31831187" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22524753" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22420382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,16 +371,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/Knapsack_Recursive.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/Knapsack_Memoization.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/EqualSumPartition.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/Knapsack_TopDown.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/CountOfSubsetSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/UnboundedKnapsack.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/CoinChange2.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/RodCutting.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/SubsetSum.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/LCS_Recursive.java" />
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/LCS_TopDown.java" />
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/MinNoOfInsertionDeletionAToB.java" />
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/LongestPalindromicSubsequence.java" />
@@ -358,13 +378,6 @@
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/LongestRepeatingSubsequence.java" />
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/LCS_Print.java" />
     <entry file="file://$PROJECT_DIR$/src/dsa/recursion/Staircase.java" />
-    <entry file="file://$PROJECT_DIR$/src/dsa/dp/CoinChange1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/dp/LongestCommonSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -600,19 +613,108 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/MaximumAreaHistogram.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        <state relative-caret-position="247">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dsa/stack/StockSpanProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+          <caret line="79" column="5" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#stockSpanProblem2#0;class#StockSpanProblem#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/dp/CoinChange1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dijkstra/Dijkstra.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dijkstra/Edge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dijkstra/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dijkstra/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dfs/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dfs/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/Vertex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/dfs/DFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/BFS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dsa/graph/bfs/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
